@@ -1,3 +1,14 @@
+export const firePottery = (potteryToHeat, temp) => {
+   potteryToHeat.fired = true
+
+   if (temp > 2200) {
+      potteryToHeat.cracked = true
+   } else {
+      potteryToHeat.cracked = false
+   }
+   return potteryToHeat
+}
+
 /*
 1. Define and export a function named `firePottery` that is responsible for acting as a kiln.
 1. The function must accept the following values as input _(i.e. it needs parameters)_, in the following order. If you don't remember, you can easily [add new properties to objects in JavaScript](https://www.dyn-web.com/tutorials/object-literal/properties.php).
