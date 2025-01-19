@@ -120,12 +120,16 @@ In the `main.js` module, invoke the `PotteryList` component function. Take its r
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. Explain how you got the HTML, with the correct data, displayed in the browser?
-   > Your answer here
+   > Your answer here // I used document.getElementsByClassName to select the index of potteryList and store it in a variable I then use variable[0].innerHTML to insert it. Document.getElementsByClassName returns an array so i specify the first element in the returned array.
+
 2. In the **PotteryList** module, when you iterate your pottery, you need to show the evidence of what the **weight** property's value is for the 2nd piece of pottery. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+   > Paste your video's public URL here // https://www.loom.com/share/2787ebfcd6a048049dda45e941ac77f8?sid=87690a4f-349a-4d0a-8fc5-119cdd2d3453
+
 3. The **PotteryWheel** module has a single function named `makePottery`. Why doesn't that module have all of the other code in it?
-   > Your answer here
+   > Your answer here // makePottery is only used to make the pottery, the reason we don't put all the functions in it is to keep our workspace clean and comprehensive. We can also reuse individule functions this way.
+
 4. The pottery shop has learned that there is a set of customers that are willing to buy cracked pottery at a discounted price of $2.50. That means that the cracked pottery should now be displayed in the catalog. Explain the changes that this new business strategy would cause to your algorithm.
-   > Your answer here
+   > Your answer here // I would need to add a price, store the data of the cracked pottery, convert the stored results to a html string and insert them in the html.
+
 5. In the **Kiln** module, you have a `firePottery()` function. You need to demonstrate how to use the debugger to verify the values of the parameters for that function when your code runs. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+   > Paste your video's public URL here // https://www.loom.com/share/dceb179f1eaa4559bba4d5c283ab1680?sid=084bb65a-4c3f-4519-a50f-041294d0e9ee
